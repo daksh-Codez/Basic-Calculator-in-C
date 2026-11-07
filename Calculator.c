@@ -2,20 +2,16 @@
 // CODED BY: DAKSH GOSWAMI ( A CS MAJOR AT GALGOTIAS UNIVERSITY )
 
 #include<stdio.h>
+  int main () {
+    int a, b, choice;  
+      printf("enter first number\n");
+              scanf("%d",&a);
+          printf("enter second number\n");
+              scanf("%d",&b);
+          printf("enter operation ( 1-add , 2-subtract , 3-multiply , 4-divide )\n");
+              scanf("%d",&choice);
 
-int main () {
-  
-    int a, b, choice; 
-        
-    printf("enter first number\n");
-            scanf("%d",&a);
-        printf("enter second number\n");
-            scanf("%d",&b);
-        printf("enter operation ( 1-add , 2-subtract , 3-multiply , 4-divide )\n");
-            scanf("%d",&choice);
-
-    switch(choice){
-        
+    switch(choice){   
         case 1 : 
             printf("The sum is : %d\n",a+b);
                 break;
