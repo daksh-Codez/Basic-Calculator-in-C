@@ -32,5 +32,5 @@
             printf("Invalid operation choice.\n");
         }
         
-    return 0;
+  return 0;
 }
